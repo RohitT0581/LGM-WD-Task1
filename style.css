@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: sans-serif;
+    outline: none;
+    
+}
+body{
+    background: linear-gradient(45deg rgb(34, 105, 197) rgb(227, 41, 171));
+}
+.container{
+    height: 500px;
+    width: fit-content;
+    display: flex;
+    overflow-y: inherit ;
+    overflow-x: auto;
+    justify-content: center;
+    
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius:10px ;
+    box-shadow: inset 5px 5px 12px #ffffff,5px 5px 12px rgba(0,0,0,.16);
+    margin: auto;
+    margin-top: 100px;
+    
+    
+}
+
+
+
+.txtb{
+    
+    height: 20px;
+    width: 300px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,inset 5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    border-radius: 30px;
+    color: rbg(70,70,70);
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.task{
+    width: 100%;
+    background: none;
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+}
+.task i[class='fas fa-trash-alt']{
+    float: right;
+    background: transparent;
+    margin-left: 25px;
+    cursor: pointer;
+    color: rgb(247, 46, 46);
+
+}
+
+.task i[class='fas fa-check']{
+    float: right;
+    background: transparent;
+    margin-left: 25px;
+    cursor: pointer;
+    color: rgb(33, 248, 0);
+
+}
+.NotDone .task{
+    background:  rgb(0, 146, 195);
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+    padding: 10px;
+
+}
+.Done .task{
+    background: rgb(97, 246, 97);
+    border-radius: 30px;
+    border: none;
+    color: #ffffff;
+    margin: 6px 0;
+    padding: 10px;
+
+}
+.container i[class='fas fa-clipboard']{
+    height: fit-content;
+    color: rgb(34, 105, 197);
+    size: 50px;
+    border: transparent;
+    background: transparent;
+    position: absolute;
+    margin-top: 10px;
+    padding: 10px;
+    
+
+}
+h3{
+    position: absolute;
+    color: rgb(34, 105, 197);
+
+}
+
